@@ -1,0 +1,19 @@
+body {
+  background-color: seagreen;
+}
+
+@media (min-width: 1201px) and (max-width: 1600px) {
+  body {
+    background-color: limegreen;
+  }
+}
+@media (min-width: 481px) and (max-width: 1200px) {
+  body {
+    background-color: powderblue;
+  }
+}
+@media (max-width: 480px) {
+  body {
+    background-color: lightsalmon;
+  }
+}
