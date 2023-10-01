@@ -1,0 +1,41 @@
+.container {
+  color: white;
+  border: 5px solid gold;
+  display: flex;
+  flex-direction: column;
+  width: 10%;
+}
+
+/*
+Select all the elements that are the direct
+children of the .container class.
+*/
+
+.red {
+  background-color: #eb4d4b;
+  flex-basis: 100px;
+}
+.orange {
+  background-color: #f0932b;
+  flex-basis: 100px;
+}
+.yellow {
+  background-color: #f6e58d;
+  flex-basis: 100px;
+}
+.green {
+  background-color: #6ab04c;
+  flex-basis: 100px;
+}
+.blue {
+  background-color: #4834d4;
+  flex-basis: 100px;
+}
+.indigo {
+  background-color: #30336b;
+  flex-basis: 100px;
+}
+.purple {
+  background-color: #be2edd;
+  flex-basis: 100px;
+}
