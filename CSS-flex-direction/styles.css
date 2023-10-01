@@ -10,31 +10,28 @@ Select all the elements that are the direct
 children of the .container class.
 */
 
+.container > * {
+  flex-basis: 100px;
+}
+
 .red {
   background-color: #eb4d4b;
-  flex-basis: 100px;
 }
 .orange {
   background-color: #f0932b;
-  flex-basis: 100px;
 }
 .yellow {
   background-color: #f6e58d;
-  flex-basis: 100px;
 }
 .green {
   background-color: #6ab04c;
-  flex-basis: 100px;
 }
 .blue {
   background-color: #4834d4;
-  flex-basis: 100px;
 }
 .indigo {
   background-color: #30336b;
-  flex-basis: 100px;
 }
 .purple {
   background-color: #be2edd;
-  flex-basis: 100px;
 }
